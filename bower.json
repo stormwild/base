@@ -1,0 +1,16 @@
+{
+  "name": "base",
+  "version": "0.0.0",
+  "main": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.0",
+    "normalize.scss": "~2.2.0+normalize.2.1.3"
+  }
+}
