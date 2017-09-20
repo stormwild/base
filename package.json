@@ -1,0 +1,29 @@
+{
+  "name": "base",
+  "version": "0.0.0-alpha.1",
+  "description": "base ====",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormwild/base.git"
+  },
+  "keywords": [
+    "base",
+    "css"
+  ],
+  "author": "Alexander R Torrijos <artorrijos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stormwild/base/issues"
+  },
+  "homepage": "https://github.com/stormwild/base#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  }
+}
