@@ -1,9 +1,10 @@
 {
   "name": "base",
   "version": "0.0.0-alpha.1",
-  "description": "base ====",
+  "description": "Base - a css framework",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
