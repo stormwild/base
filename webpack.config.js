@@ -23,7 +23,6 @@ const config = {
         }]
     },
     plugins: [
-        new CleanWebpackPlugin(['dist']),
         new ExtractTextPlugin({
             filename: "css/[name].min.css",
             allChunks: true
@@ -32,7 +31,14 @@ const config = {
             filename: 'index.html',
             template: 'src/html/index.html'
         })
-    ]
+    ],
+    devServer: {
+        contentBase: path.join(__dirname, "dist"),
+        compress: true,
+        port: 8080,
+        public: 'https://base-stormwild.c9users.io',
+        https: true
+    }
 };
 
 module.exports = config;
